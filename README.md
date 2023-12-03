@@ -6,10 +6,10 @@ The task is to predict the sales of food items at various stores to increase pro
 ### Business problem:
 The task is to make good prediction of the sales of food items at various stores.
 
-### Potential Stakeholders:
+## Potential Stakeholders:
 Grocery stores' owners.
 
-### Data:
+## Data:
 Data used for this project is attatched here.
 
 **https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw/view?usp=sharing**
@@ -45,6 +45,18 @@ The graph above shows the relation between the type of area in which the store i
 - Root Mean Square Error = 1,056.474
 - R^2 score = 0.595
 - The R^2 score is used to evaluate the goodness of fit of a regression model. The greater the R^2 score the better the results.
+
+## Model Insights
+### Feature Importances
+![image](https://github.com/amd3897/Prediction-of-Product-Sales/assets/145266280/8c623071-6e42-4544-974c-0ec7809d6271)
+The top 5 features that most affect the model's prediction are shown above. They are (in order):
+- Item MRP (Maximum Retail Price): That is a manufacturer-calculated price that is the highest price that can be charged for a product.
+- Outlet Type (Grocery Store): Which means grocery stores play a major role in predicting the sales.
+- Item Visibility: How much visible the item is for the customer is highly important.
+- Item Weight: The weight of the product could play a very important role since customers prefer to buy light things more than heavy things.
+- Outlet Identifier (OUT027): The store ID somehow plays an important role.
+
+### Visualizing Coefficient
 
 
 ## Recommendations:
