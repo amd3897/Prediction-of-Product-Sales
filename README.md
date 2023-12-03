@@ -86,7 +86,7 @@ Our Linear Regression Coefficients are shown above.
 
     
 ## Recommendations:
-The model can be enhanced more with further modification, however, the results are considerably excellent.
+As you can see from visualizing coefficients, you can further enhance the coefficients that positevely influence the sales, by by building bigger stores, new ones or rennovate old ones. You can also reduce the effect of the negative factors, such as, upgrading supermarkets of type 1 and type 2, or upgrade the location of some stores.
 
 
 ## Limitations & Next Steps
