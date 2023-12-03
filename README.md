@@ -49,6 +49,7 @@ The graph above shows the relation between the type of area in which the store i
 ## Model Insights
 ### Feature Importances
 ![image](https://github.com/amd3897/Prediction-of-Product-Sales/assets/145266280/8c623071-6e42-4544-974c-0ec7809d6271)
+
 The top 5 features that most affect the model's prediction are shown above. They are (in order):
 - Item MRP (Maximum Retail Price): That is a manufacturer-calculated price that is the highest price that can be charged for a product.
 - Outlet Type (Grocery Store): Which means grocery stores play a major role in predicting the sales.
@@ -57,8 +58,33 @@ The top 5 features that most affect the model's prediction are shown above. They
 - Outlet Identifier (OUT027): The store ID somehow plays an important role.
 
 ### Visualizing Coefficient
+![image](https://github.com/amd3897/Prediction-of-Product-Sales/assets/145266280/9de08f5f-6fc8-40be-9a77-948fc6dcacef)
 
+Our Linear Regression Coefficients are shown above.
+- Our model assumed a baseline score of 2.728
+- Coefficients that Positively Influence the Sales:
+  - Outlet ID (OUT013):
+    The store with this ID increases the sales by  1.728.
+  - Outlet Establishment Year:
+    The year the outlet was built in increases the sales by 1.584.
+  - Outlet ID (OUT045):
+    The store with this ID increases the sales by  1.220.
+  - Outlet Size:
+    The outlet size increases the sales by 1.056
 
+- Coefficients that Negatively Influence Final Grade:
+  - Outlet Type (Supermarket Type1):
+    This type negatively affects the sales by 2.856.
+  - Outlet Type (Supermarket Type2):
+    This type negatively affects the sales by 2.240.
+  - Outlet ID (OUT018):
+    The store with this ID negatively affects the sales by  1.893.
+  - Outlet Location Type (Tier 3):
+    The location negatively affects the sales by 1.396.
+  - Outlet ID (OUT049):
+    The store with this ID negatively affects the sales by  0.819.
+
+    
 ## Recommendations:
 The model can be enhanced more with further modification, however, the results are considerably excellent.
 
